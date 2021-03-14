@@ -1,135 +1,61 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>五味杂陈的梦 | 檀某的小宇宙</title>
-<meta name="description" content="记录我的生活，该记录可能存在大量消极言论。">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://tc0ed7.coding-pages.com/favicon.ico?v=1615692742900">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://tc0ed7.coding-pages.com/favicon.ico?v=1615692781178">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://tc0ed7.coding-pages.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="五味杂陈的梦 | 檀某的小宇宙 - Atom Feed" href="https://tc0ed7.coding-pages.com/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
+    <meta name="description" content="深夜下班以是凌晨，公寓楼下我抬头望去，零零散散的窗里还亮着等，不知何人还在加点加夜，拿出钥匙走了进去。我住在10层的273号房，这小区大的很像个迷宫一样，好几次走错了，不要再迷路了。一楼门卫怎么没人？嗯！应该又提前睡了。嗯？靠电梯坏了！倒霉..." />
+    <meta name="keywords" content="梦,小宇宙" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://tc0ed7.coding-pages.com">
-        <img class="avatar" src="https://tc0ed7.coding-pages.com/images/avatar.png?v=1615692742900" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://tc0ed7.coding-pages.com">
-        <h1 class="site-title">檀某的小宇宙</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://tc0ed7.coding-pages.com">
+  <img class="avatar" src="https://tc0ed7.coding-pages.com/images/avatar.png?v=1615692781178" alt="">
+  </a>
+  <h1 class="site-title">
+    檀某的小宇宙
+  </h1>
+  <p class="site-description">
+    记录我的生活，该记录可能存在大量消极言论。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
   </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://tc0ed7.coding-pages.com/post-images/wu-wei-za-chen-de-meng.jpg')">
-            </div>
-          
-          <h2 class="post-title">五味杂陈的梦</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2021-01-27</span>
-            
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://tc0ed7.coding-pages.com/tag/qfdI-zv4n/">
-                    梦
-                    
-                      ，
-                    
-                  </a>
-                
-                  <a href="https://tc0ed7.coding-pages.com/tag/M-JZmWqCV/">
-                    小宇宙
-                    
-                  </a>
-                
-              </span>
-            
-          </div>
-          <div class="post-content">
-            <p>深夜下班以是凌晨，公寓楼下我抬头望去，零零散散的窗里还亮着等，不知何人还在加点加夜，拿出钥匙走了进去。我住在10层的273号房，这小区大的很像个迷宫一样，好几次走错了，不要再迷路了。一楼门卫怎么没人？嗯！应该又提前睡了。嗯？靠电梯坏了！倒霉。楼梯间里没用层数牌，看来得自己记一下了........</p>
-<!-- more -->
-<p>这第几层了.......出去看看.....嗯？门怎么打不开了。喂！有人吗！喂！【还有12天啊，我看明天刚好不用上班可以休息2天，那就还剩10天了，开心~】喂！喂！妈的！原版想跑回一楼，但转身看去上来的楼梯下面好黑，看不见今天......上去看看吧，没有？没有？没有？嗯！到了10层楼梯间上写着10层。<br>
-打开门走廊长切破旧，到处是不明的黑色液体和垃圾袋，这是268号房间？那就在前面了。{咕<sub>咕咕</sub>~}嗯？什么声音，转过身，一只全是布满这深褐色的大肉球出现在身后。这是什么东西！快跑！ ！走廊的另一边也出现了一只，向我冲过来。怎么办！怎么办！我拿出钥匙跑向走廊中心的273号房，跑过去，打开门，关上！<br>
-快速拿出钥匙奔跑过去，快点.....快点......快点啊!!!!!!打开了，嘭！卡卡！砰砰砰！！！！呼<s>呼</s>~呼~~                               声音......听了...........看来是进不来了...........电话！电话！小区物业嘟-嘟-嘟-（无法拨打）110呢嘟-嘟-嘟-（无法拨打）不行得想办法.....先把柜子搬过来挡住门，然后开灯检查房间，拉上所有窗帘.....呼~~这些应该安全了，一阵强烈的困意袭来，慢慢的睡去............啊！这...是梦？家具全部还原了，从窗外照射进阳光，走廊传来邻居的喧闹声,透过猫眼看见外面洁白的墙壁长长的输了一口气。原来是梦啊~{咚咚咚！您好外面！}啊，外卖到了，我拉下了把手，那一瞬间我突然想到;我,什么时候点了外卖？房门被突然踢开，门口站着一个全身长满铁锈的胖子，受伤拿着一把带血的刀，冲了进来。我一下睁开眼......黑暗的房间我躺在被子里全是冒着冷汗..........</p>
-
-          </div>
-        </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://tc0ed7.coding-pages.com/post/ju-qi-fen/">
-              <h3 class="post-title">
-                下一篇：巨气愤
-              </h3>
-            </a>
-          </div>
-          
-      </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan">记录我的生活，该记录可能存在大量消极言论。</div>
   <div class="social-container">
     
       
@@ -143,26 +69,111 @@
       
     
   </div>
-  其他小站 <a href="https://www.titaike.cn"_blank">TITAIKE</a> | <a class="rss" href="https://tc0ed7.coding-pages.com/atom.xml" target="_blank">RSS</a>
 </div>
 
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              五味杂陈的梦
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-01-27
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://tc0ed7.coding-pages.com/tag/qfdI-zv4n/" class="post-tag">
+                  # 梦
+                </a>
+              
+                <a href="https://tc0ed7.coding-pages.com/tag/M-JZmWqCV/" class="post-tag">
+                  # 小宇宙
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://tc0ed7.coding-pages.com/post-images/wu-wei-za-chen-de-meng.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>深夜下班以是凌晨，公寓楼下我抬头望去，零零散散的窗里还亮着等，不知何人还在加点加夜，拿出钥匙走了进去。我住在10层的273号房，这小区大的很像个迷宫一样，好几次走错了，不要再迷路了。一楼门卫怎么没人？嗯！应该又提前睡了。嗯？靠电梯坏了！倒霉。楼梯间里没用层数牌，看来得自己记一下了........</p>
+<!-- more -->
+<p>这第几层了.......出去看看.....嗯？门怎么打不开了。喂！有人吗！喂！【还有12天啊，我看明天刚好不用上班可以休息2天，那就还剩10天了，开心~】喂！喂！妈的！原版想跑回一楼，但转身看去上来的楼梯下面好黑，看不见今天......上去看看吧，没有？没有？没有？嗯！到了10层楼梯间上写着10层。<br>
+打开门走廊长切破旧，到处是不明的黑色液体和垃圾袋，这是268号房间？那就在前面了。{咕<sub>咕咕</sub>~}嗯？什么声音，转过身，一只全是布满这深褐色的大肉球出现在身后。这是什么东西！快跑！ ！走廊的另一边也出现了一只，向我冲过来。怎么办！怎么办！我拿出钥匙跑向走廊中心的273号房，跑过去，打开门，关上！<br>
+快速拿出钥匙奔跑过去，快点.....快点......快点啊!!!!!!打开了，嘭！卡卡！砰砰砰！！！！呼<s>呼</s>~呼~~                               声音......听了...........看来是进不来了...........电话！电话！小区物业嘟-嘟-嘟-（无法拨打）110呢嘟-嘟-嘟-（无法拨打）不行得想办法.....先把柜子搬过来挡住门，然后开灯检查房间，拉上所有窗帘.....呼~~这些应该安全了，一阵强烈的困意袭来，慢慢的睡去............啊！这...是梦？家具全部还原了，从窗外照射进阳光，走廊传来邻居的喧闹声,透过猫眼看见外面洁白的墙壁长长的输了一口气。原来是梦啊~{咚咚咚！您好外面！}啊，外卖到了，我拉下了把手，那一瞬间我突然想到;我,什么时候点了外卖？房门被突然踢开，门口站着一个全身长满铁锈的胖子，受伤拿着一把带血的刀，冲了进来。我一下睁开眼......黑暗的房间我躺在被子里全是冒着冷汗..........</p>
 
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://tc0ed7.coding-pages.com/post/ju-qi-fen/">
+              <h3 class="post-title">
+                巨气愤
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  其他小站 <a href="https://www.titaike.cn"_blank">TITAIKE</a>
+  <a class="rss" href="https://tc0ed7.coding-pages.com/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script>
+      hljs.initHighlightingOnLoad()
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-</script>
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
 
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
 
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
 
-
+    </script>
   </body>
 </html>
