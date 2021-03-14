@@ -1,314 +1,198 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<html>
+  <head>
+    
+<meta charset="utf-8" >
 
-<head>
-	<meta charset="UTF-8" />
 <title>檀某的小宇宙</title>
 <meta name="description" content="记录我的生活，该记录可能存在大量消极言论。">
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
-<link type='text/css' rel='stylesheet' href='https://tc0ed7.coding-pages.com/styles/main.css' media='screen' />
-<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
-<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://tc0ed7.coding-pages.com/favicon.ico?v=1615692640092">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://tc0ed7.coding-pages.com/styles/main.css">
 
-<script type="text/javascript" src='https://tc0ed7.coding-pages.com/media/scripts/jquery.js'></script>
-<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
-<script>
-    hljs.initHighlightingOnLoad();
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://tc0ed7.coding-pages.com">
+        <img class="avatar" src="https://tc0ed7.coding-pages.com/images/avatar.png?v=1615692640092" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://tc0ed7.coding-pages.com">
+        <h1 class="site-title">檀某的小宇宙</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+        <div class="content-container">
+          
+          
+
+<div class="archives-container">
+  
+    <h2 class="year">2021</h2>
+    
+      
+        <article class="post">
+          <a href="https://tc0ed7.coding-pages.com/post/shi-shi-ps-de-jian-zhi/">
+            <h2 class="post-title">
+              试试PS的兼职
+              <small>2021-03-12</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="https://tc0ed7.coding-pages.com/post/wu-wei-za-chen-de-meng/">
+            <h2 class="post-title">
+              五味杂陈的梦
+              <small>2021-01-27</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="https://tc0ed7.coding-pages.com/post/ju-qi-fen/">
+            <h2 class="post-title">
+              巨气愤
+              <small>2021-01-25</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+        <article class="post">
+          <a href="https://tc0ed7.coding-pages.com/post/yu-yun-di-san-fang-fu-wu-qi-ti-gong-shang-de-xian-zhuang/">
+            <h2 class="post-title">
+              雨云，第三方服务器提供商的现状
+              <small>2021-01-24</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+      
+    
+  
+    <h2 class="year">2018</h2>
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <article class="post">
+          <a href="https://tc0ed7.coding-pages.com/post/hello-gridea/">
+            <h2 class="post-title">
+              Hello Gridea
+              <small>2018-12-12</small>
+            </h2>
+          </a>
+        </article>
+      
+    
+  
+</div>
+
+
+        </div>
+
+        <div class="site-footer">
+  <div class="slogan">记录我的生活，该记录可能存在大量消极言论。</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  其他小站 <a href="https://www.titaike.cn"_blank">TITAIKE</a> | <a class="rss" href="https://tc0ed7.coding-pages.com/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+      </div>
+      <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
-</head>
-
-<body>
-	<div class="layout theme-dark">
-		<div class="layout-header">
-
-	<div class="layout-header-main">
-		<div class="container">
-			<div class="row justify-content-lg-center">
-				<div class="col-12 col-lg-9">
-
-					<div class="navbar">
-
-						<div class="logo">
-							<a href="https://tc0ed7.coding-pages.com">
-								<img class="logo"
-									src="https://tc0ed7.coding-pages.com/media/images/site_avatar.png?v=1611768219731"
-									alt="">
-							</a>
-						</div>
-
-						<div class="menu d-md-inline-block d-none">
-							<ul class="layout-navigation-list">
-								
-								<li class="layout-navigation-item"><a title="首页"
-										href="/">首页</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="归档"
-										href="/archives">归档</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="标签"
-										href="/tags">标签</a>
-								</li>
-								
-								<li class="layout-navigation-item"><a title="关于"
-										href="/post/about">关于</a>
-								</li>
-								
-							</ul>
-						</div>
-
-						<div class="item d-md-inline-block d-none">
-							<div class="search-icon">
-								<i class="fa fa-search" aria-hidden="true"></i>
-							</div>
-						</div>
-
-
-
-						<div class="d-md-inline-block d-none">
-							<div class="search-lightbox">
-								<div class="search-body">
-
-									<form id="gridea-search-form" data-update="1611768219731" action="/search/" class="search-form">
-										<input type="text" name="q" id="s" value="" class="search-field" placeholder="请输入搜索关键词" aria-label="请输入搜索关键词" required="">
-										<button type="submit" class="submit" aria-label="Submit">
-											<i class="fa fa-search" aria-hidden="true"></i>
-										</button>
-									</form>
-
-								</div>
-							</div>
-						</div>
-
-						<div class="nav d-md-none d-inline-block">
-							<div class="trigger">
-								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
 
 
 
 
-		</div>
-	</div>
-
-</div>
-		<div class="layout-collapse d-md-none">
-	<div class="layout-collapse-main">
-		<ul class="layout-collapse-list">
-			
-			<li class="layout-collapse-item"><a title="首页" href="/">首页</a></li>
-			
-			<li class="layout-collapse-item"><a title="归档" href="/archives">归档</a></li>
-			
-			<li class="layout-collapse-item"><a title="标签" href="/tags">标签</a></li>
-			
-			<li class="layout-collapse-item"><a title="关于" href="/post/about">关于</a></li>
-			
-
-		</ul>
-	</div>
-</div>
-
-		<div class="layout-content">
-			<div class="layout-content-main">
-				<div class="container">
-					<div class="row justify-content-lg-center">
-						<div class="col-12 col-lg-9">
-							<div class="layout-archive">
-								
-								
-
-								<div class="card">
-									<div class="card-header">
-										<div class="header-content">
-											<div class="title">2021</div>
-										</div>
-
-									</div>
-									<div class="card-body">
-										
-										
-										<div class="card-item">
-											<div class="thumb">
-												
-												<a href="https://tc0ed7.coding-pages.com/post/wu-wei-za-chen-de-meng/" style="background-image: url('https://tc0ed7.coding-pages.com/post-images/wu-wei-za-chen-de-meng.jpg')"></a>
-												
-											</div>
-											<div class="list-content">
-												<div class="list-body">
-													<a class="title" href="https://tc0ed7.coding-pages.com/post/wu-wei-za-chen-de-meng/">五味杂陈的梦</a>
-													<div class="time">2021-01-27</div>
-												</div>
-											</div>
-										</div>
-										
-										
-										
-										<div class="card-item">
-											<div class="thumb">
-												
-												<a href="https://tc0ed7.coding-pages.com/post/ju-qi-fen/" style="background-image: url('https://tc0ed7.coding-pages.com/post-images/ju-qi-fen.jpg')"></a>
-												
-											</div>
-											<div class="list-content">
-												<div class="list-body">
-													<a class="title" href="https://tc0ed7.coding-pages.com/post/ju-qi-fen/">巨气愤</a>
-													<div class="time">2021-01-25</div>
-												</div>
-											</div>
-										</div>
-										
-										
-										
-										<div class="card-item">
-											<div class="thumb">
-												
-												<a href="https://tc0ed7.coding-pages.com/post/yu-yun-di-san-fang-fu-wu-qi-ti-gong-shang-de-xian-zhuang/" style="background-image: url('https://www.rainyun.com/img/rainyun.png')"></a>
-												
-											</div>
-											<div class="list-content">
-												<div class="list-body">
-													<a class="title" href="https://tc0ed7.coding-pages.com/post/yu-yun-di-san-fang-fu-wu-qi-ti-gong-shang-de-xian-zhuang/">雨云，第三方服务器提供商的现状</a>
-													<div class="time">2021-01-24</div>
-												</div>
-											</div>
-										</div>
-										
-										
-										
-										
-									</div>
-								</div>
-								
-
-								<div class="card">
-									<div class="card-header">
-										<div class="header-content">
-											<div class="title">2018</div>
-										</div>
-
-									</div>
-									<div class="card-body">
-										
-										
-										
-										
-										
-										
-										
-										
-										<div class="card-item">
-											<div class="thumb">
-												
-												<a href="https://tc0ed7.coding-pages.com/post/hello-gridea/" style="background-image: url('https://tc0ed7.coding-pages.com/post-images/hello-gridea.png')"></a>
-												
-											</div>
-											<div class="list-content">
-												<div class="list-body">
-													<a class="title" href="https://tc0ed7.coding-pages.com/post/hello-gridea/">Hello Gridea</a>
-													<div class="time">2018-12-12</div>
-												</div>
-											</div>
-										</div>
-										
-										
-									</div>
-								</div>
-								
-							</div>
-
-							<div class="layout-paginator">
-								<div class="paginator row">
-									<div class="col-6">
-										
-										<a class="btn disabled btn-paginator width-100">上一页</a>
-										
-									</div>
-									<div class="col-6">
-										
-										<a class="btn disabled btn-paginator width-100">下一页</a>
-										
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-			<div class="layout-footer">
-
-		<div class="container">
-			<div class="row justify-content-lg-center">
-				<div class="col-12 col-lg-9">
-					<div class="footer">
-						<div class="row">
-							<div class="col-12 col-md-9">
-								<div class="footer-copy">
-									
-									<span>© 2021 </span>
-									<a href="https://tc0ed7.coding-pages.com" title="檀某的小宇宙">檀某的小宇宙</a>
-									<span class="px-2">⋅</span>
-									
-									其他小站 <a href="https://www.titaike.cn"_blank">TITAIKE</a>
-									<div class="footer-icp d-none d-sm-inline-block">
-										<span class="px-2">⋅</span>
-										
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3 d-none d-md-block">
-								<div class="footer-links">
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									<span class="footer-links-item">
-										<a href="2590353963" target="_blank">
-											<i class="fa fa-qq" aria-hidden="true"></i>
-										</a>
-									</span>
-									
-									
-									
-									
-									
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<script type="text/javascript" src='https://tc0ed7.coding-pages.com/media/scripts/main.js'></script>
-	
-	</div>
-</body>
-
+    </div>
+  </body>
 </html>
