@@ -1,173 +1,205 @@
-
-<!DOCTYPE html>
 <html>
-  <head>
-    
-<meta charset="utf-8" >
 
-<title>Gridea | 檀某的小宇宙</title>
-<meta name="description" content="记录我的生活，该记录可能存在大量消极言论。">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://tc0ed7.coding-pages.com/favicon.ico?v=1615736053885">
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    Gridea | 檀某的小宇宙
+</title>
+<link rel="shortcut icon" href="https://tc0ed7.coding-pages.com/favicon.ico?v=1615736262899">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://tc0ed7.coding-pages.com/styles/main.css">
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://tc0ed7.coding-pages.com/media/js/jquery.sticky-sidebar.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+</head>
 
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://tc0ed7.coding-pages.com">
-        <img class="avatar" src="https://tc0ed7.coding-pages.com/images/avatar.png?v=1615736053885" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://tc0ed7.coding-pages.com">
-        <h1 class="site-title">檀某的小宇宙</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-
-        <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> Gridea
-          </h2> 
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://tc0ed7.coding-pages.com">
+                <img class="avatar" src="https://tc0ed7.coding-pages.com/images/avatar.png?v=1615736262899" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    檀某的小宇宙
+                </h1>
+            </div>
         </div>
-
-        
-<section class="post-item">
-    <div class="content">
-      <a href="https://tc0ed7.coding-pages.com/post/gridea-zui-jin-de-ji-ge-wen-ti/">
-        <h2 class="post-title">Gridea最近的几个问题</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-03-14</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://tc0ed7.coding-pages.com/tag/rt38reizD/">
-                Gridea
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
                 
-                  ，
-                
-              </a>
-            
-              <a href="https://tc0ed7.coding-pages.com/tag/Stnofmv199/">
-                服务器
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-      <a href="https://tc0ed7.coding-pages.com/post/gridea-zui-jin-de-ji-ge-wen-ti/">
-        <div class="feature-container" style="background-image: url('https://gridea.dev/media/gridea.png')">
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
         </div>
-      </a>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">记录我的生活，该记录可能存在大量消极言论。</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  其他小站 <a href="https://www.titaike.cn"_blank">TITAIKE</a> | <a class="rss" href="https://tc0ed7.coding-pages.com/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
+</div>
 
-hljs.initHighlightingOnLoad()
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
 
+        });
+    });
 </script>
 
+            <div id="main-content" class="post-container main-container">
+                <div id="content" class="main-container-left">
+                    
+    <div class="i-card">
+        <b>标签：#
+        Gridea</b>
+    </div>
+    
+        
+            <article class="post i-card">
+                <h2 class="post-title">
+                    <a href="https://tc0ed7.coding-pages.com/post/gridea-zui-jin-de-ji-ge-wen-ti/">
+                        Gridea最近的几个问题
+                    </a>
+                </h2>
+                <div class="post-info">
+                    <time class="post-time">2021-03-14</time>
+                    
+                        <a href="https://tc0ed7.coding-pages.com/tag/rt38reizD/" class="post-tag i-tag
+                            i-tag-other_1">
+            #Gridea
+        </a>
+                        
+                        <a href="https://tc0ed7.coding-pages.com/tag/Stnofmv199/" class="post-tag i-tag
+                            i-tag-error">
+            #服务器
+        </a>
+                        
+                </div>
+                <div class="post-article">
+                    
+                        <a href="https://tc0ed7.coding-pages.com/post/gridea-zui-jin-de-ji-ge-wen-ti/" class="post-feature-image" style="background-image:url(https://gridea.dev/media/gridea.png) ">
+                        </a>
+                        
+                            <div class="post-content">
+                                
+                                        <div class="post-content-content">
+                                            首先就是国内的coding现在要收费了，再也不能免费新建了，但是我完全不慌哈哈哈，在收费之前已经有的貌似能继续使用，第一次白嫖腾讯的东西。
+现在静态的coding是0.3元一个月，还不是那些杂七杂八的玩意；动态的是3元一个月，不过首月可以免费，还会送代金券，给了几种就代表有几个收费项目，可谓人心险恶，创建的时候说3月一个月，但开通后好家伙，疯狂送代金券（还都是一个月）支持worldpress哦！
+好的！步入正题，首先发下Gridea下的主题Space存在问题，切换到改主题后无法同步，就看见同步的圈在转啊转~~浪费了不少的时间；然后就是github也出了点小问题，当时coding一直不行的时候试了一下在github新建，根据官方教程创建的库的域名无法访问，亏我还挂了梯子。不过好在重新整理了一遍coding的思路现在可以用了，流下了感动的泪水。跳转Gridea的时间里，我又想去弄hexo试了6，7遍，我的Git各种报错，搞得我电脑巨卡，推荐想弄hexo静态的朋友，先看完教程再动手，不要一边看一边做出了问题很麻烦，对了Gridea的作者我已经联系不上了，真是日理万机（如果是在考试，那打扰了）
+OK今天就先写到这里吧，Gridea我还没设置CDN加速，不知道可不可以弄，虽说是腾讯的，但速度貌似也不怎么样，之后再说吧~~~
+
+                                        </div>
+                                        
+                                            <a class="btn btn-text" href="https://tc0ed7.coding-pages.com/post/gridea-zui-jin-de-ji-ge-wen-ti/">Read More ~</a>
+                            </div>
+                </div>
+            </article>
+            
+                <!-- 翻页 -->
+                
+                </div>
+                <!--  -->
+                <div class="main-container-middle"></div>
+                <!--  -->
+                <div id="sidebar" class="main-container-right">
+
+                    <!-- 个人信息 -->
+                    
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://tc0ed7.coding-pages.com/images/avatar.png?v=1615736262899)">
+        </div>
+        <h1 class="id_card-title">
+            檀某的小宇宙
+        </h1>
+        <h2 class="id_card-description">
+            记录我的生活，该记录可能存在大量消极言论。
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
+            
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
+    </div>
+    
+
+                        <!-- 公告栏 -->
+                        
+
+                </div>
+            </div>
 
 
 
-  </body>
+            <div class="site-footer">
+  其他小站 <a href="https://www.titaike.cn"_blank">TITAIKE</a> | 
+  <a class="rss" href="https://tc0ed7.coding-pages.com/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+</body>
+
 </html>
