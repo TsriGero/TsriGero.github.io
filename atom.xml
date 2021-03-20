@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tsrigero.github.io</id>
     <title>Tan小宇宙</title>
-    <updated>2021-03-19T12:01:07.790Z</updated>
+    <updated>2021-03-20T08:20:58.024Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tsrigero.github.io"/>
     <link rel="self" href="https://tsrigero.github.io/atom.xml"/>
@@ -16,6 +16,14 @@
         <link href="https://tsrigero.github.io/post/xin-logo-she-ji/">
         </link>
         <updated>2021-03-18T02:08:18.000Z</updated>
+        <summary type="html"><![CDATA[<p>先看看LOGO吧<br>
+<img src="https://tsrigero.github.io/post-images/1616119911803.jpg" alt="" loading="lazy"><br>
+再来看看思路，首先目前用的域名是tanxyz.tk不要吐槽为什么是免费的tk域名，写博客主要的是内容，我是拿这个来写日记的什么域名都无所谓了，tanxyz中的tan是指（谭）而xyz是指（小宇宙）至于tk，无意义。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>先看看LOGO吧<br>
+<img src="https://tsrigero.github.io/post-images/1616119911803.jpg" alt="" loading="lazy"><br>
+再来看看思路，首先目前用的域名是tanxyz.tk不要吐槽为什么是免费的tk域名，写博客主要的是内容，我是拿这个来写日记的什么域名都无所谓了，tanxyz中的tan是指（谭）而xyz是指（小宇宙）至于tk，无意义。</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[和驿站兼职，熟悉工作]]></title>
@@ -23,6 +31,14 @@
         <link href="https://tsrigero.github.io/post/he-yi-zhan-jian-zhi-shou-xi-gong-zuo/">
         </link>
         <updated>2021-03-16T13:09:21.000Z</updated>
+        <summary type="html"><![CDATA[<p>玩久了，最后还是去找了一份兼职，是和驿站想着让自己尽快熟悉一下就在今天下午开始帮忙，一开始团团转，完全不知道那个货架在那里，最后自己画了一张图（如下）栩栩如生<br>
+<img src="https://tsrigero.github.io/post-images/1615813970381.png" alt="" loading="lazy"><br>
+然后顺序是当天的快递在中间，上面的是昨天或更久的，从上往下S行排列，不算累就是没事记得喝点水，尤其是下午下班到吃完晚饭后的半小时内，是最忙的时候。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>玩久了，最后还是去找了一份兼职，是和驿站想着让自己尽快熟悉一下就在今天下午开始帮忙，一开始团团转，完全不知道那个货架在那里，最后自己画了一张图（如下）栩栩如生<br>
+<img src="https://tsrigero.github.io/post-images/1615813970381.png" alt="" loading="lazy"><br>
+然后顺序是当天的快递在中间，上面的是昨天或更久的，从上往下S行排列，不算累就是没事记得喝点水，尤其是下午下班到吃完晚饭后的半小时内，是最忙的时候。</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea最近的几个问题]]></title>
