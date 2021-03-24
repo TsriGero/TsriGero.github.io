@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://tanxyz.tk</id>
+    <id>https://xyz.titaike.cn</id>
     <title>Tan小宇宙</title>
-    <updated>2021-03-24T13:13:59.545Z</updated>
+    <updated>2021-03-24T13:21:49.355Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://tanxyz.tk"/>
-    <link rel="self" href="https://tanxyz.tk/atom.xml"/>
+    <link rel="alternate" href="https://xyz.titaike.cn"/>
+    <link rel="self" href="https://xyz.titaike.cn/atom.xml"/>
     <subtitle>记录我的生活，该记录可能存在大量消极言论。</subtitle>
-    <logo>https://tanxyz.tk/images/avatar.png</logo>
-    <icon>https://tanxyz.tk/favicon.ico</icon>
+    <logo>https://xyz.titaike.cn/images/avatar.png</logo>
+    <icon>https://xyz.titaike.cn/favicon.ico</icon>
     <rights>All rights reserved 2021, Tan小宇宙</rights>
     <entry>
         <title type="html"><![CDATA[对Teambition【阿里网盘】的看法]]></title>
-        <id>https://tanxyz.tk/post/aliyunpan.html/</id>
-        <link href="https://tanxyz.tk/post/aliyunpan.html/">
+        <id>https://xyz.titaike.cn/post/aliyunpan.html/</id>
+        <link href="https://xyz.titaike.cn/post/aliyunpan.html/">
         </link>
         <updated>2021-03-23T09:07:26.000Z</updated>
         <summary type="html"><![CDATA[<p>前几天阿里决定把Teambition网盘与阿里云盘数据合并，这意味着Teambition将在后续公测结束后消失，对此我专们去看了一下官方的部分回复，比如后期是否限速的问题，反正大部分都能接受就是这个空间有些难受，公测结束后大部分会变成100G与300G的空间，我们抢破头的Teambition的2T直接没了，具体可看下面这张图：</p>
@@ -23,8 +23,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[新LOGO设计]]></title>
-        <id>https://tanxyz.tk/post/xinlogo/</id>
-        <link href="https://tanxyz.tk/post/xinlogo/">
+        <id>https://xyz.titaike.cn/post/xinlogo/</id>
+        <link href="https://xyz.titaike.cn/post/xinlogo/">
         </link>
         <updated>2021-03-18T02:08:18.000Z</updated>
         <summary type="html"><![CDATA[<p>先看看LOGO吧<br>
@@ -38,8 +38,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[和驿站兼职，熟悉工作]]></title>
-        <id>https://tanxyz.tk/post/kuaibao/</id>
-        <link href="https://tanxyz.tk/post/kuaibao/">
+        <id>https://xyz.titaike.cn/post/kuaibao/</id>
+        <link href="https://xyz.titaike.cn/post/kuaibao/">
         </link>
         <updated>2021-03-16T13:09:21.000Z</updated>
         <summary type="html"><![CDATA[<p>玩久了，最后还是去找了一份兼职，是和驿站想着让自己尽快熟悉一下就在今天下午开始帮忙，一开始团团转，完全不知道那个货架在那里，最后自己画了一张图（如下）栩栩如生</p>
@@ -49,8 +49,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea最近的几个问题]]></title>
-        <id>https://tanxyz.tk/post/gridea.html/</id>
-        <link href="https://tanxyz.tk/post/gridea.html/">
+        <id>https://xyz.titaike.cn/post/gridea.html/</id>
+        <link href="https://xyz.titaike.cn/post/gridea.html/">
         </link>
         <updated>2021-03-14T15:10:50.000Z</updated>
         <summary type="html"><![CDATA[<p>首先就是国内的coding现在要收费了，再也不能免费新建了，但是我完全不慌哈哈哈，在收费之前已经有的貌似能继续使用，第一次白嫖腾讯的东西。</p>
@@ -60,8 +60,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[五味杂陈的梦]]></title>
-        <id>https://tanxyz.tk/post/meng.html/</id>
-        <link href="https://tanxyz.tk/post/meng.html/">
+        <id>https://xyz.titaike.cn/post/meng.html/</id>
+        <link href="https://xyz.titaike.cn/post/meng.html/">
         </link>
         <updated>2021-01-27T15:48:40.000Z</updated>
         <summary type="html"><![CDATA[<p>深夜下班以是凌晨，公寓楼下我抬头望去，零零散散的窗里还亮着等，不知何人还在加点加夜，拿出钥匙走了进去。我住在10层的273号房，这小区大的很像个迷宫一样，</p>
@@ -71,8 +71,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[雨云，第三方服务器提供商的现状]]></title>
-        <id>https://tanxyz.tk/post/yuyun.html/</id>
-        <link href="https://tanxyz.tk/post/yuyun.html/">
+        <id>https://xyz.titaike.cn/post/yuyun.html/</id>
+        <link href="https://xyz.titaike.cn/post/yuyun.html/">
         </link>
         <updated>2021-01-24T08:19:21.000Z</updated>
         <summary type="html"><![CDATA[<p>雨云是不少站长会选择的一个第三方服务器提供商，通过freenom免费域名+腾讯/阿里域名解析+低价阿里云，就是小站的起点。</p>
