@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanxyz.tk</id>
     <title>Tan小宇宙</title>
-    <updated>2021-03-24T13:10:26.979Z</updated>
+    <updated>2021-03-24T13:13:59.545Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanxyz.tk"/>
     <link rel="self" href="https://tanxyz.tk/atom.xml"/>
@@ -23,23 +23,23 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[新LOGO设计]]></title>
-        <id>https://tanxyz.tk/post/xin-logo-she-ji/</id>
-        <link href="https://tanxyz.tk/post/xin-logo-she-ji/">
+        <id>https://tanxyz.tk/post/xinlogo/</id>
+        <link href="https://tanxyz.tk/post/xinlogo/">
         </link>
         <updated>2021-03-18T02:08:18.000Z</updated>
         <summary type="html"><![CDATA[<p>先看看LOGO吧<br>
-<img src="https://tsrigero.github.io/post-images/1616119911803.jpg" alt="" loading="lazy"><br>
+<img src="https://tanxyz.tk/post-images/1616119911803.jpg" alt="" loading="lazy"><br>
 再来看看思路，首先目前用的域名是tanxyz.tk不要吐槽为什么是免费的tk域名，写博客主要的是内容，我是拿这个来写日记的什么域名都无所谓了，tanxyz中的tan是指（谭）而xyz是指（小宇宙）至于tk，无意义。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>先看看LOGO吧<br>
-<img src="https://tsrigero.github.io/post-images/1616119911803.jpg" alt="" loading="lazy"><br>
+<img src="https://tanxyz.tk/post-images/1616119911803.jpg" alt="" loading="lazy"><br>
 再来看看思路，首先目前用的域名是tanxyz.tk不要吐槽为什么是免费的tk域名，写博客主要的是内容，我是拿这个来写日记的什么域名都无所谓了，tanxyz中的tan是指（谭）而xyz是指（小宇宙）至于tk，无意义。</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[和驿站兼职，熟悉工作]]></title>
-        <id>https://tanxyz.tk/post/he-yi-zhan-jian-zhi-shou-xi-gong-zuo/</id>
-        <link href="https://tanxyz.tk/post/he-yi-zhan-jian-zhi-shou-xi-gong-zuo/">
+        <id>https://tanxyz.tk/post/kuaibao/</id>
+        <link href="https://tanxyz.tk/post/kuaibao/">
         </link>
         <updated>2021-03-16T13:09:21.000Z</updated>
         <summary type="html"><![CDATA[<p>玩久了，最后还是去找了一份兼职，是和驿站想着让自己尽快熟悉一下就在今天下午开始帮忙，一开始团团转，完全不知道那个货架在那里，最后自己画了一张图（如下）栩栩如生</p>
@@ -49,8 +49,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea最近的几个问题]]></title>
-        <id>https://tanxyz.tk/post/gridea-zui-jin-de-ji-ge-wen-ti/</id>
-        <link href="https://tanxyz.tk/post/gridea-zui-jin-de-ji-ge-wen-ti/">
+        <id>https://tanxyz.tk/post/gridea.html/</id>
+        <link href="https://tanxyz.tk/post/gridea.html/">
         </link>
         <updated>2021-03-14T15:10:50.000Z</updated>
         <summary type="html"><![CDATA[<p>首先就是国内的coding现在要收费了，再也不能免费新建了，但是我完全不慌哈哈哈，在收费之前已经有的貌似能继续使用，第一次白嫖腾讯的东西。</p>
@@ -60,8 +60,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[五味杂陈的梦]]></title>
-        <id>https://tanxyz.tk/post/wu-wei-za-chen-de-meng/</id>
-        <link href="https://tanxyz.tk/post/wu-wei-za-chen-de-meng/">
+        <id>https://tanxyz.tk/post/meng.html/</id>
+        <link href="https://tanxyz.tk/post/meng.html/">
         </link>
         <updated>2021-01-27T15:48:40.000Z</updated>
         <summary type="html"><![CDATA[<p>深夜下班以是凌晨，公寓楼下我抬头望去，零零散散的窗里还亮着等，不知何人还在加点加夜，拿出钥匙走了进去。我住在10层的273号房，这小区大的很像个迷宫一样，</p>
@@ -71,8 +71,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[雨云，第三方服务器提供商的现状]]></title>
-        <id>https://tanxyz.tk/post/yu-yun-di-san-fang-fu-wu-qi-ti-gong-shang-de-xian-zhuang/</id>
-        <link href="https://tanxyz.tk/post/yu-yun-di-san-fang-fu-wu-qi-ti-gong-shang-de-xian-zhuang/">
+        <id>https://tanxyz.tk/post/yuyun.html/</id>
+        <link href="https://tanxyz.tk/post/yuyun.html/">
         </link>
         <updated>2021-01-24T08:19:21.000Z</updated>
         <summary type="html"><![CDATA[<p>雨云是不少站长会选择的一个第三方服务器提供商，通过freenom免费域名+腾讯/阿里域名解析+低价阿里云，就是小站的起点。</p>
